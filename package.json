@@ -1,0 +1,26 @@
+{
+  "name": "blk-footer",
+  "version": "1.0.0",
+  "description": "Footer component for open source projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "basscss": "^4.2.4",
+    "gulp": "^3.8.10",
+    "gulp-basswork": "0.0.12",
+    "jxnblk-api": "^1.0.4",
+    "lodash": "^3.0.0"
+  },
+  "related": [
+    { "name": "Basscss", "href": "//basscss.com" },
+    { "name": "Geomicons", "href": "//geomicons.com" },
+    { "name": "CSS Stats", "href": "//cssstats.com" },
+    { "name": "Plangular", "href": "//cssstats.com" },
+    { "name": "Fitter Happier Text", "href": "//jxnblk.com/fitter-happier-text" },
+    { "name": "Loading", "href": "//jxnblk.com/loading" }
+  ]
+}

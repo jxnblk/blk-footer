@@ -1,0 +1,31 @@
+<footer class="border-top overflow-hidden">
+  <div class="flex flex-wrap flex-center py3 mxn2">
+    <h1 class="h4 m0 px2">
+      <%= title ? title : '' %>
+      <small class="regular">v<%= version %></small>
+    </h1>
+    <% links.forEach(function(link) { %>
+      <a href="<%= link.href %>" class="button"><%= link.name %></a>
+    <% }) %>
+    <% if (typeof (github) != undefined) { %>
+      <a href="<%= github.href %>" class="button"><%= github.name %></a>
+    <% } %>
+    <% if (typeof (npm) != undefined) { %>
+      <a href="<%= npm.href %>" class="button"><%= npm.name %></a>
+    <% } %>
+    <div class="flex-auto"></div>
+    <div class="h6 px2">
+      Made by <a href="//jxnblk.com">Jxnblk</a>
+    </div>
+  </div>
+  <% if (typeof(related) != undefined) { %>
+    <div class="py3 border-top">
+      <h2 class="h6 regular m0">Related</h2>
+      <div class="flex flex-wrap flex-center mxn2">
+        <% related.forEach(function(item) { %>
+          <a href="<%= item.href %>" class="button px2 dark-gray"><%= item.name %></a>
+        <% }) %>
+      </div>
+    </div>
+  <% } %>
+</footer>
