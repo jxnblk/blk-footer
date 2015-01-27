@@ -1,5 +1,5 @@
-<footer class="border-top overflow-hidden">
-  <div class="flex flex-wrap flex-center py3 mxn2">
+<footer class="py2 border-top overflow-hidden">
+  <div class="flex flex-wrap flex-center py1 mxn2">
     <h1 class="h4 m0 px2">
       <%= title ? title : '' %>
       <small class="regular">v<%= version %></small>
@@ -18,14 +18,4 @@
       Made by <a href="//jxnblk.com">Jxnblk</a>
     </div>
   </div>
-  <% if (typeof(related) != undefined) { %>
-    <div class="py3 border-top">
-      <h2 class="h6 regular m0">Related</h2>
-      <div class="flex flex-wrap flex-center mxn2">
-        <% related.forEach(function(item) { %>
-          <a href="<%= item.href %>" class="button px2 dark-gray"><%= item.name %></a>
-        <% }) %>
-      </div>
-    </div>
-  <% } %>
 </footer>

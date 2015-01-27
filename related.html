@@ -1,0 +1,8 @@
+<% if (typeof(related) != undefined) { %>
+  <div class="flex flex-wrap flex-center py1 mxn2">
+    <h2 class="h6 regular m0 px2">Related Projects</h2>
+    <% related.forEach(function(item) { %>
+      <a href="<%= item.href %>" class="button px2 dark-gray"><%= item.name %></a>
+    <% }) %>
+  </div>
+<% } %>

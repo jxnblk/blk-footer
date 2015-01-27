@@ -16,11 +16,47 @@
     "lodash": "^3.0.0"
   },
   "related": [
-    { "name": "Basscss", "href": "//basscss.com" },
-    { "name": "Geomicons", "href": "//geomicons.com" },
-    { "name": "CSS Stats", "href": "//cssstats.com" },
-    { "name": "Plangular", "href": "//cssstats.com" },
-    { "name": "Fitter Happier Text", "href": "//jxnblk.com/fitter-happier-text" },
-    { "name": "Loading", "href": "//jxnblk.com/loading" }
-  ]
+    {
+      "name": "Basscss",
+      "href": "//basscss.com"
+    },
+    {
+      "name": "Geomicons",
+      "href": "//geomicons.com"
+    },
+    {
+      "name": "CSS Stats",
+      "href": "//cssstats.com"
+    },
+    {
+      "name": "Plangular",
+      "href": "//cssstats.com"
+    },
+    {
+      "name": "Fitter Happier Text",
+      "href": "//jxnblk.com/fitter-happier-text"
+    },
+    {
+      "name": "Loading",
+      "href": "//jxnblk.com/loading"
+    }
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jxnblk-api": "^1.0.4",
+    "lodash": "^3.0.0",
+    "gulp-basswork": "^0.0.12",
+    "gulp": "^3.8.10",
+    "basscss": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/blk-footer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jxnblk/blk-footer/issues"
+  },
+  "homepage": "https://github.com/jxnblk/blk-footer"
 }
