@@ -1,6 +1,6 @@
 {
   "name": "blk-footer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Footer component for open source projects",
   "main": "index.js",
   "scripts": {
