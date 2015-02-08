@@ -7,10 +7,10 @@
     <% links.forEach(function(link) { %>
       <a href="<%= link.href %>" class="button"><%= link.name %></a>
     <% }) %>
-    <% if (typeof (github) != undefined) { %>
+    <% if (typeof (github) !== 'undefined') { %>
       <a href="<%= github.href %>" class="button"><%= github.name %></a>
     <% } %>
-    <% if (typeof (npm) != undefined) { %>
+    <% if (typeof (npm) !== 'undefined') { %>
       <a href="<%= npm.href %>" class="button"><%= npm.name %></a>
     <% } %>
     <div class="flex-auto"></div>
